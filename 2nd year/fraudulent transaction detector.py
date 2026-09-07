@@ -5,7 +5,7 @@ sus_tran=0
 for i in range (1,9):
     tran=float(input("enter transaction "+str(i)+" amount:"))
 
-    if tran>=100000:
+    if tran>=200000:
         sus_amount=sus_amount+1
         sus_tran=sus_tran+tran
 
