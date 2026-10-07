@@ -9,8 +9,7 @@ class sum_of_numbers{
 
         int sum = 0;
 
-        for(int i = 1; i <= n; i++)
-        {
+        for(int i = 1; i <= n; i++){
             System.out.print("Enter number " + i + ": ");
             int num = sc.nextInt();
             sum = sum + num;
